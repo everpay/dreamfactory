@@ -1,0 +1,36 @@
+
+{
+  "resource": [
+    {
+      "id":          8,
+      "name":        "mysql",
+      "label":       "MySQL Database",
+      "description": "A MySQL database service.",
+      "is_active":   true,
+      "type":        "mysql",
+      "config":      {
+        "host":     "localhost",
+        "port":     3306,
+        "database": "bitnami_df",
+        "username": "bn_df",
+        "password": "3d716c363c"
+      }
+    },
+    {
+      "id": "9",
+      "name": "mongodb",
+      "label": "MongoDB",
+      "description": "A MongoDB database service.",
+      "is_active": true,
+      "type": "mongodb",
+      "config": {
+        "dsn": "mongodb://localhost:27017/bitnami_df",
+        "options":
+          {
+            "username": "bn_df",
+            "password": "3d716c363c"
+          }
+      }
+    }
+  ]
+}
